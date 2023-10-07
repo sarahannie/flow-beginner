@@ -12,10 +12,6 @@ pub contract HelloWorld {
     pub let id: UInt64
     pub let _from: String
     pub let _to: String 
-
-    // Declare a public field of type String.
-    //
-    // All fields must be initialized in the init() function.
     public var greeting:String
 
     // The init() function is required if the struct contains any fields.
